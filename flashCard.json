@@ -1,0 +1,254 @@
+{
+  "basi informatica": [
+    {
+      "question": "Cosa è il modello di Von Neumann e di Turing e come funzionano?",
+      "answer": "Il modello di Von Neumann è un'architettura di computer con bus, I/O, memoria (unificata per dati e istruzioni) e unità di controllo (CPU), che permette l'esecuzione sequenziale di programmi. Il modello di Turing è un concetto teorico di computazione che manipola simboli su un nastro infinito secondo regole, composto da nastro, testina e stato interno."
+    },
+    {
+      "question": "Cosa è il modello ISO/OSI, a cosa serve e la sua importanza nella comunicazione tra computer?",
+      "answer": "Il modello ISO/OSI è uno standard che divide la comunicazione di rete in sette livelli (fisico, data-link, network, trasporto, sessione, presentazione, applicazione). Serve come guida per progettare reti e garantisce l'interoperabilità tra sistemi diversi."
+    },
+    {
+      "question": "Descrivere il protocollo TCP/IP e il suo ruolo in Internet.",
+      "answer": "TCP/IP è un insieme di protocolli di rete essenziale per Internet. TCP garantisce la trasmissione affidabile dei dati, mentre IP si occupa dell'instradamento dei pacchetti. È fondamentale per l'interoperabilità, l'affidabilità e la scalabilità della comunicazione in rete."
+    },
+    {
+      "question": "Descrivere le diverse tipologie di rete, evidenziando i loro vantaggi e svantaggi.",
+      "answer": "Le reti principali sono: LAN (piccola area, bassi costi, alta qualità), MAN (area media, costi e complessità moderati), WAN (ampia area, costi elevati, velocità decrescente, complessità alta). Le VPN creano reti private sicure su connessioni pubbliche, offrendo maggiore privacy e accesso remoto, ma con potenziale riduzione di velocità e maggiore complessità di configurazione."
+    },
+    {
+      "question": "Tipologie di reti in base all'estensione Geografica (LAN, MAN, WAN).",
+      "answer": "LAN: alta velocità, bassa estensione, costi contenuti. MAN: velocità discreta, estensione media, costi moderati. WAN: velocità variabile, ampia estensione, costi molto elevati."
+    },
+    {
+      "question": "Cosa è un algoritmo, come funziona e quanto è la complessità (tempo e memoria richiede per eseguire il tutto)?",
+      "answer": "Un algoritmo è una sequenza finita e non ambigua di istruzioni per risolvere un problema. Funziona tramite passaggi logici che includono input, elaborazione e output. La sua complessità si misura in termini di tempo e memoria necessari per l'esecuzione."
+    },
+    {
+      "question": "Cosa è la codifica dei dati e il codice ASCII?",
+      "answer": "La codifica dei dati è la conversione di informazioni in formati standardizzati per l'elaborazione e la comunicazione. Il codice ASCII (American Standard Code for Information Interchange) è uno standard che rappresenta caratteri (lettere, numeri, simboli) come numeri binari, ampiamente usato in informatica e comunicazioni."
+    },
+    {
+      "question": "Cosa è la banda larga e che benefici dispone?",
+      "answer": "La banda larga è una connessione Internet ad alta velocità per trasmissione dati rapida e continua. I benefici includono maggiore velocità di navigazione/download e supporto per più dispositivi simultaneamente, essenziale per applicazioni moderne come streaming e videoconferenze."
+    },
+    {
+      "question": "Qual è lo scopo della progettazione di un database e quali sono i passaggi per poterla progettare?",
+      "answer": "Lo scopo della progettazione di un database è creare una struttura efficiente per memorizzare, gestire e recuperare dati, garantendo coerenza, accessibilità e integrità, riducendo la ridondanza. I passaggi includono analisi dei requisiti, creazione del modello Entità-Relazione (E-R), definizione del modello logico e implementazione con test e manutenzione."
+    },
+    {
+      "question": "Come è la struttura di una tabella in una progettazione logica?",
+      "answer": "Una tabella in progettazione logica organizza i dati in righe (record) e colonne (attributi). Ha un nome univoco, colonne con nome, tipo dato e vincoli (es. NOT NULL), una chiave primaria che identifica univocamente ogni record, e chiavi esterne per relazionarsi con altre tabelle. Possono esserci descrizioni/commenti opzionali."
+    },
+    {
+      "question": "Differenza tra progettazione logica, fisica e vista utente in un database.",
+      "answer": "La progettazione logica definisce la struttura del database (entità, attributi, relazioni) indipendentemente dai dettagli fisici, puntando alla normalizzazione. La progettazione fisica si occupa della realizzazione concreta (tabelle, tipi di dati, archiviazione). La vista utente è l'interfaccia che permette agli utenti di interagire con i dati in modo sicuro e controllato."
+    },
+    {
+      "question": "Definizione di Base di dati e la loro importanza nei sistemi informativi.",
+      "answer": "Un database è un insieme organizzato di dati gestito da un DBMS, progettato per essere facilmente gestito, aggiornato e accessibile. Nei sistemi informativi, i database sono fondamentali per: organizzazione strutturata, integrità dei dati (riducendo ridondanza e incongruenze), accesso e condivisione sicura tra più utenti, e protezione dei dati sensibili tramite meccanismi di sicurezza offerti dai DBMS."
+    },
+    {
+      "question": "DBMS, caratteristiche, vantaggi/svantaggi e differenza con file system.",
+      "answer": "Il DBMS è un software per creare, manipolare e gestire database, fornendo interfaccia tra utenti e dati. Caratteristiche: integrità, sicurezza, indipendenza dati, supporto transazioni (ACID), interfaccia query. Vantaggi: facilità d'accesso, backup, normalizzazione, efficienza. Svantaggi: costo, complessità. A differenza del file system, il DBMS gestisce relazioni, offre query avanzate e garantisce integrità dei dati."
+    },
+    {
+      "question": "Indipendenza dei dati: differenza tra fisica e logica.",
+      "answer": "L'indipendenza dei dati è la capacità di modificare la struttura dei dati senza influenzare le applicazioni. L'indipendenza fisica permette modifiche alla struttura di archiviazione senza impattare le applicazioni. L'indipendenza logica permette modifiche alla struttura logica (tabelle, relazioni) senza dover modificare le applicazioni che usano i dati."
+    },
+    {
+      "question": "Architettura a tre livelli di un DBMS (ANSI/SPARC): come si realizza e come strutturato.",
+      "answer": "L'architettura a tre livelli di un DBMS (ANSI/SPARC) organizza i dati su: Schema fisico (dettagli di archiviazione su supporti fisici), Schema logico (struttura logica del database, es. diagramma E-R), e Schema esterno/Vista utente (come utenti e applicazioni interagiscono con i dati)."
+    },
+    {
+      "question": "Cosa è SQL, che ruolo ha nei Database e come si chiamano i componenti che definiscono la struttura del Database, manipolazione e interrogazione dei dati (DDL, DML e QL)?",
+      "answer": "SQL (Structured Query Language) è un linguaggio standard per gestire database relazionali. Definisce la struttura, manipola e interroga i dati. I suoi componenti sono: DDL (Data Definition Language) per definire la struttura (CREATE, ALTER), DML (Data Manipulation Language) per manipolare i dati (INSERT, UPDATE, DELETE) e QL (Query Language) per interrogare i dati (SELECT)."
+    },
+    {
+      "question": "Cosa è una query e citane un esempio?",
+      "answer": "Una query è una richiesta in SQL per ottenere informazioni specifiche da un database, anche da più tabelle. Permette di estrarre, filtrare e aggregare dati. Un esempio tipico usa i comandi SELECT (per i dati da estrarre) e FROM (per la tabella di origine)."
+    },
+    {
+      "question": "Differenza tra DBMS e R-DBMS.",
+      "answer": "Un DBMS (Database Management System) è un software generico per gestire database, supportando vari modelli di dati. Un R-DBMS (Relational Database Management System) è un tipo specifico di DBMS che usa il modello relazionale, organizzando i dati in tabelle con relazioni definite tramite chiavi primarie ed esterne, e usa SQL come linguaggio standard. Le differenze principali riguardano la struttura dei dati, la gestione delle relazioni e il linguaggio di interrogazione."
+    },
+    {
+      "question": "Quali sono i modelli logici applicati ai Basi di dati e qual è il più comune?",
+      "answer": "I modelli logici dei database definiscono l'organizzazione dei dati: Gerarchico (struttura ad albero), Reticolare (più flessibile del gerarchico), Orientato agli Oggetti (dati come oggetti), Relazionale (tabelle con chiavi primarie/esterne), e Multidimensionale (per analisi dati, es. \"cubetti\"). Il modello relazionale è il più comune per semplicità, flessibilità e uso di SQL."
+    },
+    {
+      "question": "Per quale ragione è più comune il modello relazionale e su quale concetto si basa?",
+      "answer": "Il modello relazionale è il più comune per la sua integrità, semplicità, flessibilità e supporto alle relazioni. Si basa sul concetto di relazioni matematiche, dove i dati sono rappresentati in tabelle con schemi che specificano colonne e tipi di dati. Le relazioni tra tabelle sono stabilite da chiavi primarie ed esterne per coerenza logica."
+    },
+    {
+      "question": "Caratteristiche principali sul modello relazionale e differenza tra riferimenti interrelazionali e intrarelazionali.",
+      "answer": "Le caratteristiche principali del modello relazionale includono: struttura a tabelle, uso di chiavi primarie ed esterne, vincoli di integrità (unicità, not null), operazioni di manipolazione dati (SQL) e interrogazione dati (SQL con join, aggregazioni). I riferimenti interrelazionali riguardano le relazioni tra tabelle diverse, mentre i riferimenti intrarelazionali si riferiscono a relazioni all'interno della stessa tabella."
+    },
+    {
+      "question": "Tipologie di vincoli di integrità in base alla tipologia di riferimento (interrelazionali/intrarelazionali).",
+      "answer": "I vincoli di integrità garantiscono validità e coerenza dei dati: Vincoli Interrelazionali (tra tabelle diverse) includono Chiave Esterna (per integrità referenziale) e Vincoli di Unicità (per valori unici). Vincoli Intrarelazionali (all'interno della stessa tabella) includono Chiave Primaria (identificatore unico, non nullo), Vincoli di Not Null (per valori obbligatori) e Vincoli di Controllo (condizioni specifiche sui dati)."
+    },
+    {
+      "question": "Cosa è la chiave Primaria e caratteristiche principali?",
+      "answer": "La chiave primaria è un attributo (o insieme di attributi) che identifica univocamente ogni record in una tabella di un database relazionale. È fondamentale per garantire l'unicità e l'integrità dei dati, e facilita le relazioni con altre tabelle tramite chiavi esterne."
+    },
+    {
+      "question": "Per quale ragione è importante la chiave primaria e da cosa la distingue dalla Chiave Esterna?",
+      "answer": "La chiave primaria è cruciale perché identifica univocamente ogni record in una tabella, prevenendo duplicati e facilitando l'accesso ai dati (es. ID_Cliente). Differisce dalla chiave esterna in quanto la chiave esterna crea relazioni tra tabelle, riferendosi alla chiave primaria di un'altra tabella."
+    },
+    {
+      "question": "Definizione e differenza tra OLTP e OLAP.",
+      "answer": "OLTP (Online Transaction Processing) è un sistema ottimizzato per gestire un gran numero di transazioni in tempo reale (lettura/scrittura rapide). OLAP (Online Analytical Processing) è un sistema progettato per l'analisi e il supporto decisionale, ottimizzato per query complesse su grandi volumi di dati storici. Le differenze chiave sono lo scopo (gestione transazioni vs analisi), il tipo di operazioni e la struttura/performance dei dati."
+    },
+    {
+      "question": "Come si realizza un'architettura Datawarehouse a 1 livello e cosa svolge?",
+      "answer": "Un'architettura Datawarehouse a 1 livello è la configurazione più semplice: i dati vengono estratti da diverse fonti, trasformati e caricati direttamente nel datawarehouse. Svolge l'integrazione e la garanzia di qualità dei dati da fonti eterogenee in un unico contenitore (middleware), facilitando l'analisi e la reportistica."
+    },
+    {
+      "question": "Cosa è il ETL (Extraction, Transformation and Loading) e che ruolo svolge nel caso di un'architettura Datawarehouse a tre livelli?",
+      "answer": "ETL (Extraction, Transformation, Loading) è un processo fondamentale nei datawarehouse: Estrazione (raccoglie dati da varie fonti), Trasformazione (pulisce, normalizza, aggrega i dati) e Caricamento (carica i dati trasformati nel datawarehouse). In un'architettura a tre livelli, ETL integra e migliora la qualità dei dati, automatizza la preparazione e supporta l'analisi fornendo dati aggiornati."
+    },
+    {
+      "question": "Cosa sono i Big Data e caratteristiche principali?",
+      "answer": "I Big Data sono insiemi di dati così vasti e complessi che le tecnologie tradizionali non riescono a elaborarli efficientemente. Le loro caratteristiche principali (le 3V) sono: Volume (quantità enorme), Velocità (rapidità di generazione e elaborazione) e Varietà (diversità dei tipi di dati, strutturati e non)."
+    },
+    {
+      "question": "Cosa è il modello concettuale ITMI applicato nei Big Data?",
+      "answer": "Il modello concettuale ITMI applicato ai Big Data si concentra su: Metodi (tecniche di analisi), e Impatto (effetti delle decisioni basate sui dati). Aiuta le organizzazioni a sviluppare strategie informative, ottimizzare risorse e prendere decisioni informate per migliorare le prestazioni e l'innovazione nell'uso dei Big Data."
+    },
+    {
+      "question": "Cosa è il Cloud Computing e quali sono i fattori che hanno reso possibile il suo sviluppo?",
+      "answer": "Il Cloud Computing è un modello che eroga servizi informatici (risorse, applicazioni) via Internet anziché tramite infrastrutture locali. I fattori che ne hanno reso possibile lo sviluppo includono l'evoluzione hardware/software e l'aumento della larghezza di banda."
+    },
+    {
+      "question": "Quali sono i 3 principali modelli di servizio offerti dal provider, in cosa si differenziano in ognuno di essi e qual responsabilità ha il provider e il client che usufruisce ognuno di questi servizi?",
+      "answer": "I 3 principali modelli di servizio del Cloud Computing sono: IaaS (Infrastructure as a Service): fornisce risorse di calcolo e storage, il cliente gestisce SO e app, il provider l'infrastruttura fisica. PaaS (Platform as a Service): offre un ambiente di sviluppo completo, il cliente si concentra sulle app, il provider su infrastruttura e piattaforme. SaaS (Software as a Service): fornisce applicazioni via Internet, il cliente le usa tramite browser, il provider gestisce tutto il software e l'infrastruttura."
+    },
+    {
+      "question": "Come funziona il VPN (tunneling, mascheramento dei dati, autenticazione degli utenti), quali sono le tipologie e vantaggi/svantaggi?",
+      "answer": "Le VPN creano una connessione privata e sicura su una rete pubblica tramite tunneling (incapsulamento dati) e crittografia (mascheramento dei dati), con autenticazione degli utenti. Svantaggi includono potenziale riduzione della velocità, costi e complessità di configurazione."
+    },
+    {
+      "question": "Cosa è un sistema, sistema informativo, sistema organizzato e sistema informatico?",
+      "answer": "Un sistema è un insieme di elementi interconnessi per un obiettivo comune. Un sistema informativo raccoglie, elabora, archivia e distribuisce informazioni. Un sistema organizzato ha una struttura e regole definite. Un sistema informatico è un sistema informativo che usa tecnologie informatiche (hardware, software, reti, database) per gestire i dati."
+    },
+    {
+      "question": "Differenza tra dati e informazione.",
+      "answer": "I dati sono fatti grezzi e numeri senza significato isolato. L'informazione è il risultato dell'elaborazione e organizzazione dei dati, che conferisce loro significato e utilità per decisioni e problemi."
+    },
+    {
+      "question": "Come funziona il ciclo di vita dei sistemi informativi e cosa è il modello di Anthony (piramide)?",
+      "answer": "Il ciclo di vita dei sistemi informativi include pianificazione, analisi, progettazione, implementazione e manutenzione. Il modello di Anthony (piramide) rappresenta i livelli di gestione aziendale (Strategico, Tattico, Operativo) e come i sistemi informativi supportano ciascun livello con analisi, gestione delle operazioni e transazioni quotidiane."
+    },
+    {
+      "question": "Rappresentazione di Anthony (attività) su tre livelli: differenza tra loro e come aiuta a rappresentare un sistema informativo.",
+      "answer": "La rappresentazione di Anthony classifica le attività in tre livelli: Strategico (decisioni a lungo termine, non strutturate), Tattico (pianificazione a medio termine, semi-strutturate) e Operativo (attività quotidiane, strutturate). Aiuta a visualizzare come i sistemi informativi supportano le decisioni a ciascun livello, identificando le esigenze informative specifiche."
+    },
+    {
+      "question": "Teoria di Simon (azienda come insieme di processi), differenza tra decisioni programmate e non programmate e le sue tre tipologie di categorie di sistemi informativi.",
+      "answer": "La teoria di Simon vede le aziende come insiemi di processi decisionali. Le decisioni sono: Programmate (routine, risolvibili con regole predefinite) o Non Programmate (richiedono analisi approfondita, uniche). Le tre categorie di sistemi informativi sono: Operativo (supporto attività strutturate), per il Controllo Direzionale (supporto attività tattiche semi-strutturate), per il Supporto alle Decisioni (supporto attività strategiche difficilmente strutturabili)."
+    },
+    {
+      "question": "Cosa evidenzia l'unione del modello di Anthony con la teoria di Simon?",
+      "answer": "L'unione del modello di Anthony e della teoria di Simon evidenzia come i sistemi informativi supportano le decisioni ai diversi livelli di gestione aziendale, considerando la natura delle decisioni stesse. Offre una visione olistica dell'uso dei sistemi informativi per migliorare il processo decisionale, garantendo che le informazioni siano rilevanti per ogni livello."
+    },
+    {
+      "question": "Qual è il ruolo del sistema informatico all'interno del sistema informativo?",
+      "answer": "Il sistema informatico è cruciale all'interno del sistema informativo per: elaborazione, archiviazione e gestione dei dati; supporto alle decisioni; automazione dei processi aziendali (aumentando efficienza); comunicazione e collaborazione; e sicurezza delle informazioni (crittografia, controllo accessi, backup)."
+    },
+    {
+      "question": "Quali sono le metodologie di pianificazione dei sistemi informativi (BSP, IE, BPR): definizione di ognuno di essi?",
+      "answer": "Le metodologie di pianificazione dei sistemi informativi sono: BSP (Business Systems Planning), che allinea le risorse IT agli obiettivi aziendali; IE (Information Engineering), che enfatizza la modellazione dati e processi per un'architettura informativa coerente; e BPR (Business Process Reengineering), che mira a riprogettare radicalmente i processi aziendali per miglioramenti significativi tramite la tecnologia."
+    },
+    {
+      "question": "Differenza tra ledger centralizzato, decentralizzato e distribuito (blockchain).",
+      "answer": "Un ledger distribuito (come la blockchain) è una forma di ledger decentralizzato in cui i dati sono replicati su una rete di nodi, ognuno con una copia completa e partecipante alla validazione delle transazioni. Vantaggi: alta sicurezza, trasparenza e resilienza. Svantaggi: maggiore complessità e potenziale lentezza dovuta al consenso."
+    },
+    {
+      "question": "Che cosa è una licenza software e caratteristiche principali?",
+      "answer": "Una licenza software è un accordo legale che definisce diritti e restrizioni sull'uso, distribuzione e modifica di un software. È fondamentale per proteggere i diritti di sviluppatori e utenti, garantendo l'uso conforme alle condizioni stabilite, specificando in particolare i diritti d'uso dell'utente."
+    }
+  ],
+  "fisica": [
+    {
+      "argomento": "MISURE E GRANDEZZE FISICHE",
+      "question": "Quali sono le caratteristiche fondamentali del Sistema Internazionale di unità di misura?",
+      "answer": "Il Sistema Internazionale (SI) è basato su sette grandezze fondamentali: lunghezza (metro), massa (chilogrammo), tempo (secondo), corrente elettrica (ampere), temperatura (kelvin), quantità di sostanza (mole) e intensità luminosa (candela). Tutte le altre grandezze sono derivate attraverso relazioni dimensionali."
+    },
+    {
+      "argomento": "MISURE E GRANDEZZE FISICHE",
+      "question": "Come si definisce il momento di un vettore applicato?",
+      "answer": "Il momento di un vettore applicato F rispetto a un punto O è un vettore dato dal prodotto vettoriale: M = r × F, dove r è il vettore posizione dal polo O al punto di applicazione della forza. Misura la tendenza della forza a produrre rotazione attorno a O."
+    },
+    {
+      "argomento": "CINEMATICA",
+      "question": "Quali sono le caratteristiche del moto armonico semplice?",
+      "answer": "Il moto armonico semplice è un moto periodico rettilineo dove l'accelerazione è proporzionale e opposta allo spostamento dalla posizione di equilibrio (a = -ω²x). La legge oraria è x(t) = A·cos(ωt + φ), con A ampiezza, ω pulsazione e φ fase iniziale."
+    },
+    {
+      "argomento": "CINEMATICA",
+      "question": "Cosa descrive l'accelerazione di Coriolis in un sistema di riferimento non inerziale?",
+      "answer": "L'accelerazione di Coriolis è una accelerazione apparente che agisce su un corpo in movimento rispetto a un sistema di riferimento rotante. Si esprime come a_c = -2ω × v, dove ω è la velocità angolare del sistema rotante e v la velocità relativa del corpo."
+    },
+    {
+      "argomento": "DINAMICA DEL PUNTO MATERIALE",
+      "question": "Qual è la relazione tra massa inerziale e massa gravitazionale?",
+      "answer": "La massa inerziale misura la resistenza di un corpo alle variazioni di moto (F = m_i·a), mentre la massa gravitazionale determina l'interazione gravitazionale (F_g = m_g·g). L'equivalenza sperimentale tra m_i e m_g è il principio fondante della relatività generale."
+    },
+    {
+      "argomento": "DINAMICA DEL PUNTO MATERIALE",
+      "question": "Come si formula il teorema del momento angolare per un punto materiale?",
+      "answer": "La derivata temporale del momento angolare L rispetto a un polo fisso è uguale al momento della forza applicata: dL/dt = M. Per un sistema isolato con forze centrali, si conserva il momento angolare."
+    },
+    {
+      "argomento": "LAVORO ED ENERGIA",
+      "question": "Qual è la relazione tra forza conservativa ed energia potenziale?",
+      "answer": "Una forza è conservativa se esiste una funzione energia potenziale U tale che F = -∇U. Il lavoro compiuto da forze conservative dipende solo dagli stati iniziale e finale, non dal percorso, e corrisponde alla variazione di energia potenziale: L = -ΔU."
+    },
+    {
+      "argomento": "LAVORO ED ENERGIA",
+      "question": "Come si esprime la conservazione dell'energia meccanica?",
+      "answer": "In un sistema isolato con sole forze conservative, l'energia meccanica totale E = K + U (cinetica + potenziale) si conserva: ΔE = 0. Se agiscono forze non conservative, la variazione di energia meccanica è pari al lavoro delle forze non conservative."
+    },
+    {
+      "argomento": "DINAMICA DEI SISTEMI DI PUNTI MATERIALI",
+      "question": "Cosa afferma il teorema di König per l'energia cinetica?",
+      "answer": "Il teorema di König stabilisce che l'energia cinetica totale di un sistema di punti è pari all'energia cinetica del centro di massa più l'energia cinetica relativa rispetto al centro di massa: K_tot = (1/2)Mv_cm² + K_rel."
+    },
+    {
+      "argomento": "DINAMICA DEI SISTEMI DI PUNTI MATERIALI",
+      "question": "Come si classificano gli urti in base alla conservazione dell'energia?",
+      "answer": "Gli urti si classificano in: 1) Elastici (conservazione energia cinetica e quantità di moto), 2) Anelastici (conservazione quantità di moto ma non energia cinetica), 3) Completamente anelastici (massima dissipazione di energia, i corpi restano uniti dopo l'urto)."
+    },
+    {
+      "argomento": "CORPI RIGIDI",
+      "question": "Qual è il significato fisico del momento d'inerzia?",
+      "answer": "Il momento d'inerzia I misura la distribuzione della massa rispetto a un asse di rotazione e quantifica l'inerzia rotazionale del corpo. Per un sistema di punti: I = Σm_i r_i², dove r_i è la distanza dall'asse. Per corpi continui si usa l'integrale I = ∫r² dm."
+    },
+    {
+      "argomento": "CORPI RIGIDI",
+      "question": "Quali condizioni devono essere soddisfatte per l'equilibrio statico di un corpo rigido?",
+      "answer": "Per l'equilibrio statico: 1) La risultante delle forze esterne deve essere nulla: ΣF_est = 0, 2) Il momento risultante delle forze esterne rispetto a qualsiasi polo deve essere nullo: ΣM_est = 0."
+    },
+    {
+      "argomento": "MECCANICA DEI FLUIDI",
+      "question": "Quali sono le principali applicazioni del teorema di Bernoulli?",
+      "answer": "Il teorema di Bernoulli (p + ρgh + ½ρv² = costante) spiega fenomeni come: effetto Venturi (diminuzione pressione in strozzature), portanza alare, funzionamento di aspiratori, tubo di Pitot per misurare velocità fluidi e sollevamento di aeromobili."
+    },
+    {
+      "argomento": "MECCANICA DEI FLUIDI",
+      "question": "Come si definisce la viscosità in un fluido reale?",
+      "answer": "La viscosità η è una misura della resistenza allo scorrimento del fluido. Per legge di Newton, lo sforzo di taglio τ è proporzionale al gradiente di velocità: τ = η·dv/dy. Nei fluidi newtoniani η è costante, in quelli non newtoniani dipende dal regime di flusso."
+    },
+    {
+      "argomento": "ONDE IN MEZZI ELASTICI",
+      "question": "Quali caratteristiche definiscono un'onda stazionaria?",
+      "answer": "Un'onda stazionaria risulta dall'interferenza di due onde identiche che viaggiano in direzioni opposte. Presenta nodi (punti di ampiezza nulla) e ventri (punti di ampiezza massima) fissi nello spazio. L'energia non si propaga ma è confinata tra i nodi."
+    },
+    {
+      "argomento": "ONDE IN MEZZI ELASTICI",
+      "question": "Come si calcola l'effetto Doppler per onde sonore in moto relativo?",
+      "answer": "Per sorgente in moto con velocità v_s e osservatore con velocità v_o: f' = f·(v±v_o)/(v∓v_s), dove v è la velocità del suono. Il segno + al numeratore se osservatore si avvicina, - se si allontana; segno - al denominatore se sorgente si avvicina, + se si allontana."
+    }
+  ]
+}

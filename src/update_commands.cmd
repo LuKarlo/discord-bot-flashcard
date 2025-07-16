@@ -1,0 +1,1 @@
+node comands-register.js
